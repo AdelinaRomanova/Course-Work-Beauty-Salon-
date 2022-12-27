@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AuthorizationActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="70px"
+        android:textColor="#503C1A"
+        android:layout_marginRight="300px"
+        android:layout_marginLeft="290px"
+        android:layout_marginTop="500px"
+        android:text="Авторизация" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#503C1A"
+        android:textSize="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginLeft="90px"
+        android:layout_marginTop="90px"
+        android:text="Логин" />
+
+    <EditText
+        android:id="@+id/edLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="150px"
+        android:layout_marginLeft="90px"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#503C1A"
+        android:textSize="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginLeft="90px"
+        android:layout_marginTop="30px"
+
+        android:text="Пароль" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="150px"
+        android:layout_marginLeft="90px"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btAuto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#503C1A"
+        android:background="@drawable/btn_round"
+        android:layout_marginRight="90px"
+        android:layout_marginLeft="90px"
+        android:layout_marginTop="120px"
+        android:text="Войти" />
+
+    <Button
+        android:id="@+id/buttonRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#503C1A"
+        android:background="@drawable/btn_round"
+        android:layout_marginRight="90px"
+        android:layout_marginLeft="90px"
+        android:layout_marginTop="60px"
+        android:text="Зарегистрироваться" />
+
+
+</LinearLayout>

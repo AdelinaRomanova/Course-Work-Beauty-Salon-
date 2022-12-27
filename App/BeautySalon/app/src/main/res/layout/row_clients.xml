@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="100dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/procedure_bg"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/clientFI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="80dp"
+            android:text="FIO"/>
+
+        <ImageButton
+            android:id="@+id/btDelClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="320dp"
+            android:src="@drawable/ic_baseline_delete_sweep_24"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/clientLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="90dp"
+            android:text="login"/>
+
+        <TextView
+            android:id="@+id/clientPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="170dp"
+            android:paddingTop="5dp"
+            android:text="****"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

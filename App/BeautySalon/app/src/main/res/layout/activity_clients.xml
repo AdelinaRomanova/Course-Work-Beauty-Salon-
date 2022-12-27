@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClientsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:textSize="50px"
+        android:textColor="#503C1A"
+        android:gravity="center"
+        android:text="Список пользователей" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewClients"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="10dp"
+        android:fastScrollEnabled="true"/>
+
+    <Button
+        android:id="@+id/btExit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#503C1A"
+        android:layout_marginRight="50px"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="20px"
+        android:text="Назад" />
+
+</LinearLayout>

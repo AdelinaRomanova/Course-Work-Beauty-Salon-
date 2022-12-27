@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="70dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/procedure_bg"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/prefix"
+                android:layout_width="wrap_content"
+                android:text="A"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/procedureToPurName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="80dp"
+            android:text="Coloring"/>
+
+        <TextView
+            android:id="@+id/procedureToPurCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="170dp"
+            android:text="2 шт"/>
+
+        <TextView
+            android:id="@+id/procedureToPurTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="240dp"
+            android:text="2100"/>
+
+        <ImageButton
+            android:id="@+id/btDel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="320dp"
+            android:src="@drawable/ic_baseline_delete_sweep_24"/>
+    </RelativeLayout>
+
+</LinearLayout>

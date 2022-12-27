@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:background="@drawable/procedure_bg"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/prefix"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_baseline_directions_run_24"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="13dp"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/visitName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="70dp"
+            android:text="Visit №"/>
+
+        <ImageButton
+            android:id="@+id/btViewVisit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_baseline_preview_24"
+            ></ImageButton>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingHorizontal="20dp">
+
+        <TextView
+            android:id="@+id/visitDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="60dp"
+            android:text="Date"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="20dp">
+<!--        <Button-->
+<!--            android:id="@+id/btEditVis"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:textSize="30px"-->
+<!--            android:layout_marginStart="50dp"-->
+<!--            android:layout_marginVertical="20px"-->
+<!--            android:text="Изменить"-->
+<!--            android:textColor="#3C2A23"/>-->
+        <Button
+            android:id="@+id/btDelVis"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="135dp"
+            android:textSize="30px"
+            android:layout_marginVertical="20px"
+            android:text="Удалить"
+            android:textColor="#3C2A23"/>
+    </RelativeLayout>
+
+</LinearLayout>
